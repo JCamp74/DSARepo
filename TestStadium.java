@@ -47,9 +47,11 @@ public class TestStadium
         System.out.println(sparky.equals(quack));
          */
 
-        /*
+
         System.out.println("\nA new battle begins! Ninetales vs. Hypno!");
         System.out.println("Ninetales's health: " + howler.getHp() + "\nHypno's health: " + sleepy.getHp());
+
+        /*
         howler.fireBlast(sleepy);
         System.out.println("Ninetales used Fire Blast! Hypno's health: " + sleepy.getHp());
         sleepy.confusion(howler);
