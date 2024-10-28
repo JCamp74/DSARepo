@@ -1,41 +1,7 @@
-/*
-Data Structures Lecture 9
-
-
-    Open up IDE (Hey this is done!)
-    Write a new program named "MyNameDaisyChainConnector"
-
-
-        MNDCC will have some global variables
-            Front/head, it'll be of type Box.
-        Box class, and boxes hold data
-            Has a String, int, etc.
-            Has a global variable next.
-            Next is a box.
-            Front/head, it'll be of type Box.
-
-        Your DCC Will need methods
-            AddFront
-            AddEnd
-            AddatIndex
-
-            RemoveFront
-            RemoveEnd
-            RemoveAtIndex
-
-            Replace
-            Clear
-            Size
-            toString()
-
-            get(index) (typically a big NOOOOO)
-            contains(element)
- */
-
 /** Implementation of a Circular, Doubly-Linked List.
  *  This list is the mainframe that will allow the game, DungeonFest
  *  to run properly and ensure room travel is consistent across the entire game.
- *  This list will handle the room elements, the entities will be handled in ArrayList
+ *  This list will handle the room elements.
  * @param <E> Generic Element for the linked list.
  * @author Jackson Campbell
  * @version 1.0.0
